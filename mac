@@ -118,6 +118,8 @@ tap "caskroom/cask"
 #rhys
 xcode-select --install # Install Command Line Tools if you haven't already.
 sudo xcode-select --switch /Library/Developer/CommandLineTools # Enable command line tools
+cask "visual-studio-code"
+
 brew "qt"
 cask "slack"
 cask "whatsapp"
